@@ -10,7 +10,7 @@ _To do is to dare._
 
 
 ```markdown
-## Best 80s Movies Ranked
+Best 80s Movies Ranked
 
 1. Back to the Future
 2. National Lampoon's Vacation
