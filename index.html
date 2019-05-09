@@ -95,6 +95,17 @@
 		//$('*').hide(); *****HIDE ERRYTHING
 		//$('span#span1').css('font-size':'50%');
 		//* Here is the real stuff *//
+
+		var testJson = {
+			test1: 'string',
+			test2: ['A', 'B'],
+			test3: {
+					test4: 'C'
+			}
+		}
+
+		console.log(testJson.test3.test4)
+
 		$(':submit').hide();
 		$('p span').css('color','red');
 		$('span#span2').css('font-size','35%');
