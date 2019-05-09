@@ -4,13 +4,14 @@
 	<title>jQuery Selector Testing</title>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<style>
-		body{
+		body {
 			font-size: 17px;
 			font-family: arial;
 			background: #f4f4f4;
 			line-height: 1.5em;
 		}
-		header{
+
+		header {
 			background:#333;
 			color:#fff;
 			padding:20px;
@@ -18,27 +19,28 @@
 			border-bottom: 4px #000 solid;
 			margin-bottom: 10px;
 		}
-		#container{
+
+		#container {
 			width:90%;
 			margin:auto;
 			padding:10px;
 		}
-		#green-button{
+
+		#green-button {
 			text-shadow:2px 2px green;
 		}
 
-		#red-button{
+		#red-button {
 			text-shadow:2px 2px red;
 		}
 
-		.move-right{
+		.move-right {
 			margin-left:80px;
 		}
 
-		#starwars{
-			margin-left:500px;
-			margin-right:500px;
-			padding:10px;
+		#starwars {
+			position:absolute;
+			left:45%;
 		}
 
 	</style>
@@ -94,8 +96,8 @@
 		//* Here is the real stuff *//
 		$(':submit').hide();
 		$('p span').css('color','red');
-		$('span#span1').css('font-size','50%');
-		$('span#span2').css('font-size','35%')
+		//$('span#span1').css('font-size':'50%');
+		$('span#span2').css('font-size','35%');
 		$('ul#list li:first').css('color','red');
 		$('ul#list li:last').css('color','green');
 		$('ul#list li:even').css('background-color','lightblue');
